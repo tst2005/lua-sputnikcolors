@@ -1,0 +1,61 @@
+
+Creating a color in HSL space and converting it to RGB
+result  :	#0f8a24
+doc said:	#0f8923
+
+You can also create this color from it's RGB code:
+result  :	#0f8923
+doc said:	#0f8923
+
+Accessing the HSL components:
+result  :	129.83606557377	0.80263157894737	0.296875
+result  :	130	0.8	0.3	(rounded result)
+doc said:	130	0.8	0.3
+
+Changing saturation:
+result  :	#2e6b38
+doc said:	#2d6b38
+result  :	#267232
+doc said:	#267233
+
+Changing lightness:
+result  :	#084512
+doc said:	#14b72f
+result  :	#19e73b
+doc said:	#19e53b
+
+Changing hue:
+result  :	#890f75
+doc said:	#890f75
+
+Building Color Schemes
+
+For a monochromatic color scheme, we'll just use the color we started with and tints and shades from it:
+result  :	#16ca34	#3deb5a	#7ef291	#bff9c9	#100100100
+doc said:	#16c934	#3ee95a	#7ef091	#bef7c8	#ffffff
+
+(make five shades)
+result  :	#0c6e1c	#095215	#06370e	#031b07	#000000
+doc said:	#0c6e1c	#095215	#06370e	#031b07	#000000
+
+For a complimentary scheme, we can use easily derive a complimentary color and its tints and shades:
+result  :	#ca16ac	#eb3dce	#f27edf	#f9bfef	#100100100
+doc said:	#c916ac	#e93ecd	#f07edd	#f7beee	#ffffff
+
+For less contrast, though, we might want to stick with neighboring colors: e.g., +/- 60 degrees of the starting color:
+result  :	#16acca	#3dceeb	#7edff2	#bfeff9	#100100100
+doc said:	#16c98e	#3ee9b0	#7ef0ca	#bef7e4	#ffffff
+result  :	#acca16	#ceeb3d	#dff27e	#eff9bf	#100100100
+doc said:	#52c916	#77e93e	#a4f07e	#d1f7be	#ffffff
+
+We could alternatively generate a split complementary color scheme:
+result  :	#16acca	#3dceeb	#7edff2	#bfeff9	#100100100
+doc said:	#8e16c9	#b03ee9	#ca7ef0	#e4bef7	#ffffff
+result  :	#acca16	#ceeb3d	#dff27e	#eff9bf	#100100100
+doc said:	#c91652	#e93e77	#f07ea4	#f7bed1	#ffffff
+
+Or a triadic one:
+result  :	#3416ca	#5a3deb	#917ef2	#c9bff9	#100100100
+doc said:	#3416c9	#5a3ee9	#917ef0	#c8bef7	#ffffff
+result  :	#ca3416	#eb5a3d	#f2917e	#f9c9bf	#100100100
+doc said:	#c93416	#e95a3e	#f0917e	#f7c8be	#ffffff
